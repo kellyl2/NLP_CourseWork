@@ -1,0 +1,468 @@
+[
+	{
+		"0": {
+			"stakeholder": "SOW Owner and Stakeholders",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 0,
+			"step_description": "Identify business need",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Identify a Business Need",
+			"document_section": 7.1,
+			"process_type": "initiate",
+			"previous_step": false,
+			"next_step": 2,
+			"alternative_steps": []
+		},
+		"1": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 1,
+			"step_description": "Complete Procurement Register",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Complete the Procurement Register",
+			"document_section": 7.2,
+			"process_type": "document",
+			"previous_step": 0,
+			"next_step": 2,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Procurement Register Development and Management",
+				"Approval Authority Matrix",
+				"Procurement Register Development and Management"
+			]
+		},
+		"2": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 2,
+			"step_description": "Procurement Register Panel Review",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Complete the Procurement Register",
+			"document_section": 7.2,
+			"process_type": "process",
+			"previous_step": 1,
+			"next_step": 3,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Procurement Register Development and Management",
+				"Approval Authority Matrix",
+				"Procurement Register Development and Management"
+			]
+		},
+		"3": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 3,
+			"step_description": "Procurement Register Panel Review Decision",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Complete the Procurement Register",
+			"document_section": 7.2,
+			"process_type": "decision",
+			"previous_step": 2,
+			"next_step": 4,
+			"alternative_steps": [
+				5
+			],
+			"associated_work_instructions": [
+				"Procurement Register Development and Management",
+				"Approval Authority Matrix",
+				"Procurement Register Development and Management"
+			]
+		},
+		"4": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 4,
+			"step_description": "Proceed with SOW finalization",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Develop the Scope of Work/Technical Purchase Specification",
+			"document_section": 7.3,
+			"process_type": "process",
+			"previous_step": 3,
+			"next_step": 6,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"SOW/TPS Development Process",
+				"Delegation of Technical Authority",
+				"Third Party TPS Development"
+			]
+		},
+		"5": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 5,
+			"step_description": "Revisit Procurement Register",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Complete the Procurement Register",
+			"document_section": 7.2,
+			"process_type": "rework",
+			"previous_step": 3,
+			"next_step": 2,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Procurement Register Development and Management",
+				"Approval Authority Matrix",
+				"Procurement Register Development and Management"
+			]
+		},
+		"6": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 6,
+			"step_description": "Develop SOW",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Develop the Scope of Work/Technical Purchase Specification",
+			"document_section": 7.3,
+			"process_type": "process",
+			"previous_step": 4,
+			"next_step": 7,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"SOW/TPS Development Process",
+				"Delegation of Technical Authority",
+				"Third Party TPS Development"
+			]
+		},
+		"7": {
+			"stakeholder": "SOW Owner and Stakeholders",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 7,
+			"step_description": "Provide Technical Input",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Develop the Scope of Work/Technical Purchase Specification",
+			"document_section": 7.3,
+			"process_type": "process",
+			"previous_step": 6,
+			"next_step": 8,
+			"alternative_steps": [
+				3
+			],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"SOW/TPS Development Process",
+				"Delegation of Technical Authority",
+				"Third Party TPS Development"
+			]
+		},
+		"8": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 8,
+			"step_description": "Document Review",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Develop the Scope of Work/Technical Purchase Specification",
+			"document_section": 7.3,
+			"process_type": "decision",
+			"previous_step": 7,
+			"next_step": 9,
+			"alternative_steps": [
+				10
+			],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"SOW/TPS Development Process",
+				"Delegation of Technical Authority",
+				"Third Party TPS Development"
+			]
+		},
+		"9": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 9,
+			"step_description": "Proceed with Document finalization",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Develop the Scope of Work/Technical Purchase Specification",
+			"document_section": 7.3,
+			"process_type": "process",
+			"previous_step": 8,
+			"next_step": 11,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"SOW/TPS Development Process",
+				"Delegation of Technical Authority",
+				"Third Party TPS Development"
+			]
+		},
+		"10": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "SOW Development",
+			"step_number": 10,
+			"step_description": "Revisit Document Details",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Develop the Scope of Work/Technical Purchase Specification",
+			"document_section": 7.3,
+			"process_type": "rework",
+			"previous_step": 8,
+			"next_step": 7,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"SOW/TPS Development Process",
+				"Delegation of Technical Authority",
+				"Third Party TPS Development"
+			]
+		},
+		"11": {
+			"stakeholder": "SCM",
+			"phase_number": 2,
+			"phase": "Sourcing",
+			"step_number": 11,
+			"step_description": "Identify and register bidders",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Identify and Register Bidders",
+			"document_section": 8.1,
+			"process_type": "process",
+			"previous_step": 9,
+			"next_step": 12,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"Procurement Register Development and Management",
+				"Approval Authority Matrix",
+				"SCM Sourcing and Supplier Review",
+				"Supplier Pre-Qualification Process"
+			]
+		},
+		"12": {
+			"stakeholder": "SCM",
+			"phase_number": 2,
+			"phase": "Sourcing",
+			"step_number": 12,
+			"step_description": "Prepare resulting subcontract and Procurement documents",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Prepare the Resulting Subcontract and RFP/RFQ Documents",
+			"document_section": 8.2,
+			"process_type": "process",
+			"previous_step": 11,
+			"next_step": 13,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"Subcontract Pack Template",
+				"Implementation of Payment Controls"
+			]
+		},
+		"13": {
+			"stakeholder": "SCM",
+			"phase_number": 2,
+			"phase": "Sourcing",
+			"step_number": 12,
+			"step_description": "Competitive sourcing",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Run the RFP/RFQ",
+			"document_section": 8.3,
+			"process_type": "decision",
+			"previous_step": 12,
+			"next_step": 14,
+			"alternative_steps": [
+				15
+			],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process"
+			]
+		},
+		"14": {
+			"stakeholder": "SCM",
+			"phase_number": 2,
+			"phase": "Sourcing",
+			"step_number": 14,
+			"step_description": "Run competitive procurement process",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Evaluate the Proposals",
+			"document_section": 8.4,
+			"process_type": "process",
+			"previous_step": 13,
+			"next_step": 15,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"Subcontract Financial Review",
+				"Supplier Proposal Price Analysis",
+				"Supplier Proposal Cost Analysis",
+				"Supplier and Subcontractor CSP Compliance Security Assessments",
+				"Supplier Financial Strength assessment"
+			]
+		},
+		"15": {
+			"stakeholder": "SOW Owner and Stakeholders",
+			"phase": "Sourcing",
+			"step_number": 15,
+			"step_description": "Evaluate technical proposal",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Evaluate the Proposals",
+			"document_section": 8.4,
+			"process_type": "process",
+			"previous_step": 16,
+			"next_step": 13,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"Subcontract Financial Review",
+				"Supplier Proposal Price Analysis",
+				"Supplier Proposal Cost Analysis",
+				"Supplier and Subcontractor CSP Compliance Security Assessments",
+				"Supplier Financial Strength assessment"
+			]
+		},
+		"16": {
+			"stakeholder": "SCM",
+			"phase": "Sourcing",
+			"step_number": 15,
+			"step_description": "Evaluate commercial proposal",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Evaluate the Proposals",
+			"document_section": 8.4,
+			"process_type": "process",
+			"previous_step": 15,
+			"next_step": 17,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Subcontracting RFX Process",
+				"Subcontract Financial Review",
+				"Supplier Proposal Price Analysis",
+				"Supplier Proposal Cost Analysis",
+				"Supplier and Subcontractor CSP Compliance Security Assessments",
+				"Supplier Financial Strength assessment"
+			]
+		},
+		"17": {
+			"stakeholder": "SCM",
+			"phase": "Sourcing",
+			"step_number": 17,
+			"step_description": "Negotiate Terms",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Negotiate the Terms of the Agreement",
+			"document_section": 8.5,
+			"process_type": "process",
+			"previous_step": 16,
+			"next_step": 18,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Implementation of Payment Controls",
+				"Negotiation Strategy and Objectives",
+				"Program Subcontract Negotiation Playbook"
+			]
+		},
+		"18": {
+			"stakeholder": "SCM",
+			"phase": "Sourcing",
+			"step_number": 18,
+			"step_description": "Select preferred supplier",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Negotiate the Terms of the Agreement",
+			"document_section": 8.5,
+			"process_type": "decision",
+			"previous_step": 17,
+			"next_step": 20,
+			"alternative_steps": [
+				19
+			],
+			"associated_work_instructions": [
+				"Implementation of Payment Controls",
+				"Negotiation Strategy and Objectives",
+				"Program Subcontract Negotiation Playbook"
+			]
+		},
+		"19": {
+			"stakeholder": "SCM",
+			"phase": "Sourcing",
+			"step_number": 19,
+			"step_description": "Revisit Supplier Terms",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Negotiate the Terms of the Agreement",
+			"document_section": 8.5,
+			"process_type": "rework",
+			"previous_step": 18,
+			"next_step": 17,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Implementation of Payment Controls",
+				"Negotiation Strategy and Objectives",
+				"Program Subcontract Negotiation Playbook"
+			]
+		},
+		"20": {
+			"stakeholder": "SCM",
+			"phase": "Procurement Contract Award",
+			"step_number": 20,
+			"step_description": "Submit Request to Procure",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Recommendation to Award the Subcontract",
+			"document_section": 9.1,
+			"process_type": "process",
+			"previous_step": 18,
+			"next_step": 21,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Approval Authority Matrix",
+				"Defence Priorities and Allocations System (DPAS) Program application",
+				"Subcontracting RFX Process"
+			]
+		},
+		"21": {
+			"stakeholder": "SCM",
+			"phase_number": 1,
+			"phase": "Procurement Contract Award",
+			"step_number": 21,
+			"step_description": "Procurement Contract Award Review",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Approval of Procurement Summary",
+			"document_section": 9.2,
+			"process_type": "decision",
+			"previous_step": 20,
+			"next_step": 22,
+			"alternative_steps": [
+				19
+			],
+			"associated_work_instructions": [
+				"Approval Authority Matrix",
+				"Defence Priorities and Allocations System (DPAS) Program application",
+				"Subcontracting RFX Process"
+			]
+		},
+		"22": {
+			"stakeholder": "PMO",
+			"phase": "Procurement Contract Award",
+			"step_number": 22,
+			"step_description": "Approve Procurement Contract Award",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": "Approval to Award the Subcontract",
+			"document_section": 9.3,
+			"process_type": "process",
+			"previous_step": 21,
+			"next_step": 23,
+			"alternative_steps": [],
+			"associated_work_instructions": [
+				"Commitment Authorization Process"
+			]
+		},
+		"23": {
+			"stakeholder": "PMO",
+			"phase": "Procurement Contract Award",
+			"step_number": 23,
+			"step_description": "Procurement Contract Complete",
+			"document_reference": "Supplier Contracting",
+			"document_section_title": false,
+			"document_section": false,
+			"process_type": "end",
+			"previous_step": 21,
+			"next_step": false,
+			"alternative_steps": [],
+			"associated_work_instructions": []
+		}
+	}
+]

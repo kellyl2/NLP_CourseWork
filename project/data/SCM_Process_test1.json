@@ -1,0 +1,20 @@
+[
+	{
+		"details": {
+			"0": {
+				"stakeholder": "SOW Owner and Stakeholders",
+				"phase_number": "1",
+				"phase": "SOW Development",
+				"step_number": 0,
+				"step_description": "Identify business need",
+				"document_reference": "Supplier Contracting",
+				"document_section_title": "Identify a Business Need",
+				"document_section": 7.1,
+				"process_type": "initiate",
+				"previous_step": false,
+				"next_step": 2,
+				"alternative_steps": []
+			}
+		}
+	}
+]
